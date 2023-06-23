@@ -20,6 +20,6 @@ public class Main {
 
         int [] rnos = new int[5];
         //or
-        int [] rnos2 = {23,12,34,53,90};
+        int [] rnos2 = {23,12,34,53,80};
     }
 }
