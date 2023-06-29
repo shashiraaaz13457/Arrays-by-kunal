@@ -21,5 +21,16 @@ public class Main {
         int [] rnos = new int[5];
         //or
         int [] rnos2 = {23,12,34,53,80};
+
+        int[] ros; // declaration of array. ros is getting defined in the stack.
+        ros = new int[5]; // intialisation: actually here object is being created in the memory.(heap)
+
+        System.out.println(ros[1]);
+        // By default it gives the 0 for int datatype.
+
+        String[] arr = new String[4];
+        System.out.println(arr[0]);
+        // By default it gives the null for String datatype.
+
     }
 }
