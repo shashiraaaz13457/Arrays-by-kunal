@@ -4,7 +4,7 @@ import java.util.Arrays;
             public class TransportationDataAnalysis {
                 public static int countNonRepeatedDigits(int N) {
                     if (N < 1 || N > 25000) {
-                        System.out.println("Invalid input. Please provide a positive integer within the specified range.");
+                        System.out.println("Invalid input. Please provide a positive integer within the specifiied range.");
                         return -1; // Return a sentinel value to indicate an error
                     }
 
