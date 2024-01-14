@@ -23,28 +23,28 @@ class Leetcode {
 
 //Ques 2. Pascal's Triangle
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int numrows = input.nextInt();
-        for (int rows = 0; rows < numrows; rows++) {
-            for (int spaces = numrows; spaces > rows; spaces--) {
-                System.out.print(" ");
-            }
-            for (int cols = 0; cols <= rows; cols++) {
-//                System.out.print("* ");
-                if (cols == 0 || cols == rows){
-                    System.out.print("1 ");
-                }
-                else {
-                    System.out.print("# ");
-                }
-            }
-            System.out.println();
-        }
-    }
-
-//class Solution {
-//    public List<List<Integer>> generate(int numRows) {
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
+//        int numrows = input.nextInt();
+//        for (int rows = 0; rows < numrows; rows++) {
+//            for (int spaces = numrows; spaces > rows; spaces--) {
+//                System.out.print(" ");
+//            }
+//            for (int cols = 0; cols <= rows; cols++) {
+////                System.out.print("* ");
+//                if (cols == 0 || cols == rows){
+//                    System.out.print("1 ");
+//                }
+//                else {
+//                    System.out.print("# ");
+//                }
+//            }
+//            System.out.println();
+//        }
+//    }
 //
 //    }
+//}
+
+
 }
