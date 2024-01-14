@@ -27,7 +27,7 @@ public class ArraylistEg {
             List.add(input.nextInt());
         }
         //get item at any index
-        
+
 //        for (int i = 0; i < 5; i++) {
 //            System.out.println(List.get(i));
 //        }
