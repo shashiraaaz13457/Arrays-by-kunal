@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CodingNinja {
-    // Count Digit
+    // 1.Count Digit
     public static void main(String[] args) {
         int rem = 0;
         Scanner input = new Scanner(System.in);
