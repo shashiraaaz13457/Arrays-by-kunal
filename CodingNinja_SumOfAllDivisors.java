@@ -30,6 +30,15 @@ public class CodingNinja_SumOfAllDivisors {
 //                }
 //            }
 //        }System.out.println(sum);
-        
+
+        //Optimized code..
+
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int sum = 0;
+        for(int i=1;i<=n;i++){
+            sum+=(n/i)*i;
+        }
+        System.out.println(sum);
     }
 }
